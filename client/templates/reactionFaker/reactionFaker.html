@@ -1,0 +1,29 @@
+<template name="reactionFaker">
+  <div class="container-fluid-sm flex">
+    <div class="flex-item">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Products</h3>
+        </div>
+        <div class="list-group">
+          <div class="list-group-item">
+            <div class="input-group">
+            	<input type="number" id="numProducts" name="numProducts" placeholder="500" class="form-control" />
+							<span class="input-group-btn">
+				        <button class="btn btn-default" id="fake-button" type="button">Fake!</button>
+				      </span>
+            </div>
+          </div>
+					<div class="list-group-item">
+						<div class="input-group">
+							<span class="label label-primary">{{numFakeProducts}} Fake Products</span>
+							<span class="input-group-btn">
+				        <button class="btn btn-danger" id="delete-fake-button" type="button">Delete Fakes!</button>
+				      </span>
+            </div>
+					</div>
+        </div>
+      </div>
+    </div>
+	</div>
+</template>
