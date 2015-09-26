@@ -49,5 +49,4 @@ Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
   api.use('gouthamve:reaction-faker');
-  api.addFiles('reaction-faker-tests.js');
 });
